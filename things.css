@@ -1,0 +1,313 @@
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+h2 {
+    text-align: left;
+    color: black;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 40px;
+    max-width: 350px;
+}
+h3 {
+    margin-top: 80px;
+}
+table {
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px;
+    border: 8px solid black;
+    box-shadow: 10px 10px 10px grey;
+}
+tr,
+th,
+td {
+    padding: 20px;
+}
+.tab1 {
+    color: white;
+    background-color: blue;
+}
+.green {
+    color: white;
+    background-color: green;
+}
+.red {
+    color: white;
+    background-color: red;
+}
+p {
+    margin: 40px;
+    margin-top: 10px;
+    text-align: center;
+    text-align: justify;
+    padding-top: 10px;
+    max-width: 340px;
+}
+.one {
+    display: flex;
+}
+.heed {
+    display: flex;
+    height: 60px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+}
+.head2 {
+    float: right;
+    text-align: center;
+    padding: 15px;
+}
+.head2 > a {
+    margin-left: 1.5em;
+    font-size: 22px;
+    padding: 40px;
+    color: cyan;
+    text-decoration: none;
+    font-family: "Mark W01 Heavy", 'san-serif';
+    ;
+}
+.head2 a:hover {
+    margin-left: 1.5em;
+    font-size: 23px;
+    padding: 40px;
+    color: gold;
+    text-decoration: none;
+}
+.frame {
+    width: 800px;
+    height: 500px;
+}
+.type {
+    list-style-type: disc;
+}
+iframe {
+    border: 5px solid red;
+}
+.cover {
+    padding-top: 200px;
+    height: 700px;
+    background: url("image/feet.jpg") no-repeat center;
+    background-size: cover;
+}
+.welcome {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 80px;
+}
+.last {
+    margin-bottom: 80px;
+}
+.sep {
+    margin-bottom: 15px;
+}
+.box {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+}
+.list,
+.list2 {
+    margin: auto;
+    list-style-type: none;
+}
+.main_header {
+    height: 160px;
+    background-color: #a4ce4c;
+}
+.sub1 {
+    padding-top: 0px;
+    height: 46px;
+    background-color: #454545;
+}
+.sub2 {
+    height: 60px;
+    font-family: "Patua One", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: white;
+    margin-top: 8px;
+    box-sizing: content-box;
+}
+.nav_link {
+    font-family: "Patua One", sans-serif;
+    font-size: 14px;
+    color: white;
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav_link1 {
+    display: block;
+    color: black;
+    font-family: "Mark W01 Heavy", 'san-serif';
+    ;
+    text-align: center;
+    float: right;
+    padding: 70px;
+    text-decoration: none;
+    font-size: 28px;
+    position: relative;
+    bottom: 270px;
+    box-sizing: border-box;
+}
+.list2 > li > a:hover {
+    color: red;
+}
+.geography {
+    display: flex;
+}
+.small {
+    text-align: left;
+}
+#map {
+    text-align: left;
+    width: 50%;
+}
+.case {
+    height: 340px;
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+    display: inline-flex;
+    margin: auto;
+}
+.case1,
+.case2 {
+    width: 100%;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.case1 > h2 {
+    text-align: center;
+    margin-top: 180px;
+    font-family: "Mark W01 Book", 'san-serif';
+    color: white;
+    margin: 130px;
+    font-size: 1.125rem;
+}
+.case2 > h2 {
+    text-align: center;
+    margin-top: 180px;
+    font-family: "Mark W01 Book", 'san-serif';
+    color: white;
+    margin: 130px;
+    font-size: 1.125rem;
+}
+.case1 {
+    background-image: url("image/one.jpg");
+}
+.case2 {
+    background-image: url("image/two.jpeg");
+}
+.bottom {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    font-family: "Mark W01 Heavy", 'san-serif';
+}
+.bottom1 {
+    margin-left: 200px;
+}
+.bottom1 > h3 {
+    font-family: "Mark W01 Heavy", 'san-serif';
+    color: black;
+    display: flex;
+}
+.bottom1 ul {
+    list-style-type: none;
+}
+.bottom1 > ul >li >a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #0d3a3d;
+    font-weight: 500;
+}
+.bottom1 > ul >li >a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    color: red;
+    font-weight: 500;
+}
+.bottom1 > ul >li >a:active {
+    color: blue;
+}
+.bottom1 > ul >li {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0d3a3d;
+}
+.bottom1 > ul >li:hover {
+    font-weight: bold;
+    font-size: 22px;
+    color: red;
+}
+.line {
+    height: 5px;
+    background-image: url("image/hr1.png");
+    margin-top: 38px;
+}
+.icon {
+    padding: 20px;
+}
+.fa {
+    padding: 20px;
+}
+.tree {
+    height: 60px;
+    background-image: url("image/tree.png");
+    background-repeat: repeat-x;
+    margin-bottom: 0px;
+}
+.copy > p {
+    font-family: "Mark W01 Heavy", 'san-serif';
+    margin-left: 40px;
+}
+.fa:hover {
+    color: red;
+    font-size: 44px;
+}
+#click {
+    text-align: center;
+    margin: auto;
+    margin-top: 140px;
+    border: 2px solid black;
+    width: 260px;
+    margin-bottom: 140px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+span {
+    background-color: red;
+    border-radius: 7px;
+}
+h3 > a {
+    border: 4px inset red;
+    width: 160px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #ffebcd;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 30px;
+    padding: 4px;
+    margin-left: 40px;
+}
+a {
+    text-decoration: none;
+}
+.ci {
+    text-align: left
+}

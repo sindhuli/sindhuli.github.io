@@ -1,0 +1,408 @@
+body {
+    margin: auto;
+    background-color: #fff;
+    color: black;
+}
+p {
+    text-align: left;
+}
+hr {
+    border: 2px solid green;
+}
+h2.welcome {
+    font-family: "Monotype Corsiva";
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: expanded;
+}
+div.welcome > p {
+    font-family: monospace;
+    font-style: italic;
+    font-stretch: condensed;
+    font-size: 22px;
+    text-align: center;
+}
+h3 {
+    font-family: "Comic Sans MS";
+}
+h2 {
+    font-size: 12px;
+}
+#one,
+#two,
+#three {
+    width: 100%;
+    height: 400px;
+}
+.mess {
+    width: 375px;
+    height: 400px;
+    border: 2px solid white;
+}
+.shead {
+    font-size: 12px;
+}
+.main_header {
+    width: 100%;
+}
+.header {
+    border: 2px solid black;
+    background-color: #0d5d66;
+    font-size: 32px;
+}
+.a {
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 28px;
+}
+.card {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: 2px solid grey;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px grey;
+    background-color: #AFEEEE;
+}
+.float {
+    font-size: 22px;
+    font-family: "Mark W01 Heavy", 'san-serif';
+    text-align: center;
+    color: white;
+    border: 2px solid gold;
+    background-color: black;
+}
+.float:hover {
+    font-size: 22px;
+    font-family: "Mark W01 Heavy", 'san-serif';
+    text-align: center;
+    color: red;
+    border: 2px solid gold;
+}
+div.card > p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Mark W01 Heavy", 'san-serif';
+}
+.imgbox {
+    display: flex;
+    margin: auto;
+}
+.black_box,
+.apple {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Mark W01 Heavy", 'san-serif';
+}
+.black_box {
+    border: 1px solid grey;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    color: white;
+    padding-top: 10px;
+    background-color: green;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.black_box:hover {
+    border: 1px solid grey;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    color: #ffff00;
+    padding-top: 10px;
+    background-color: #ff0066;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.heed {
+    display: flex;
+    height: 60px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+    width: 100%;
+}
+.head2 {
+    float: right;
+    text-align: center;
+    padding: 15px;
+}
+.head2 > a {
+    margin-left: 1.5em;
+    font-size: 22px;
+    padding: 40px;
+    color: cyan;
+    text-decoration: none;
+}
+.head2 a:hover {
+    margin-left: 1.5em;
+    font-size: 23px;
+    padding: 40px;
+    color: gold;
+    text-decoration: none;
+}
+.align {
+    width: 52%;
+    font-size: 22px;
+    font-style: normal;
+    font-family: cursive;
+}
+.iframe {
+    display: flex;
+}
+.frame {
+    width: 800px;
+    height: 500px;
+}
+.type {
+    list-style-image: url("image/star1.png");
+}
+.typeOne {
+    list-style-image: url("image/star2.png")
+}
+#stay {
+    list-style-image: url("image/star3.png");
+}
+.logo {
+    border: 5px solid grey;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 40px;
+}
+.cover {
+    padding-top: 200px;
+    height: 700px;
+    background: url("image/hr.jpg") no-repeat center;
+    background-size: cover;
+}
+.welcome {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 80px;
+}
+.last {
+    margin-bottom: 80px;
+}
+.sep {
+    margin-bottom: 15px;
+}
+.box {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+}
+.list,
+.list2 {
+    margin: auto;
+    list-style-type: none;
+}
+.main_header {
+    height: 160px;
+    background-color: #a4ce4c;
+}
+.sub1 {
+    padding-top: 0px;
+    height: 46px;
+    background-color: #454545;
+}
+.sub2 {
+    height: 60px;
+    font-family: "Patua One", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: white;
+    margin-top: 8px;
+    box-sizing: content-box;
+}
+.nav_link {
+    font-family: "Patua One", sans-serif;
+    font-size: 14px;
+    color: white;
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav_link1 {
+    display: block;
+    color: black;
+    font-family: "Mark W01 Heavy", 'san-serif';
+    ;
+    text-align: center;
+    float: right;
+    padding: 70px;
+    text-decoration: none;
+    font-size: 28px;
+    position: relative;
+    bottom: 270px;
+    box-sizing: border-box;
+}
+.list2 > li > a:hover {
+    color: red;
+}
+.geography {
+    display: flex;
+}
+.small {
+    text-align: left;
+}
+#map {
+    text-align: left;
+    width: 50%;
+}
+.case {
+    height: 340px;
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+    display: inline-flex;
+    margin: auto;
+}
+.case1,
+.case2 {
+    width: 100%;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.case1 > h2 {
+    text-align: center;
+    margin-top: 180px;
+    font-family: "Mark W01 Book", 'san-serif';
+    color: white;
+    margin: 130px;
+    font-size: 1.125rem;
+}
+.case2 > h2 {
+    text-align: center;
+    margin-top: 180px;
+    font-family: "Mark W01 Book", 'san-serif';
+    color: white;
+    margin: 130px;
+    font-size: 1.125rem;
+}
+.case1 {
+    background-image: url("image/one.jpg");
+}
+.case2 {
+    background-image: url("image/two.jpeg");
+}
+.bottom {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    font-family: "Mark W01 Heavy", 'san-serif';
+}
+.bottom1 {
+    margin-left: 200px;
+}
+.bottom1 > h3 {
+    font-family: "Mark W01 Heavy", 'san-serif';
+    color: black;
+    display: flex;
+}
+.bottom1 ul {
+    list-style-type: none;
+}
+.bottom1 > ul >li >a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #0d3a3d;
+    font-weight: 500;
+}
+.bottom1 > ul >li >a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    color: red;
+    font-weight: 500;
+}
+.bottom1 > ul >li >a:active {
+    color: blue;
+}
+.bottom1 > ul >li {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0d3a3d;
+}
+.bottom1 > ul >li:hover {
+    font-weight: bold;
+    font-size: 22px;
+    color: red;
+}
+.line {
+    height: 5px;
+    background-image: url("image/hr1.png");
+    margin-top: 38px;
+}
+.icon {
+    padding: 20px;
+}
+.fa {
+    padding: 20px;
+}
+.tree {
+    height: 60px;
+    background-image: url("image/tree.png");
+    background-repeat: repeat-x;
+    margin-bottom: 0px;
+}
+.copy > p {
+    font-family: "Mark W01 Heavy", 'san-serif';
+    margin-left: 40px;
+}
+.fa:hover {
+    color: red;
+    font-size: 44px;
+}
+form {
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+}
+label {
+    color: red;
+}
+input {
+    color: red;
+}
+legend {
+    font-weight: bold;
+    border: 5px outset blue;
+    background-color: #F8ECC2;
+}
+input[type=submit] {
+    height: 35px;
+    box-shadow: 0 0 0 2px black;
+    border-radius: 5px;
+}
+fieldset {
+    border: 5px solid blue;
+    background-color: #F8ECC2;
+}
+fieldset > p {
+    color: red;
+}
+input:focus,
+input:hover {
+    background-color: black;
+    color: white;
+}
